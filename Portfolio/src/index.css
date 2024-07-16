@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes fadeBorder {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #13e216; /* Change to desired color */
+    }
+  }
+  
+  /* Custom class for the fading border effect */
+  .fading-border {
+    @apply border-4 p-4;
+    border-color: transparent;
+    animation: fadeBorder 3s infinite;
+  }
