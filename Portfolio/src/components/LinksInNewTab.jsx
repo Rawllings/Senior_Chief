@@ -1,5 +1,5 @@
 function LinkInNewTab({ url, text }) {
-    
+
   const handleClick = (e) => {
     e.preventDefault();
     window.open(url, "_blank");
