@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
+import ServicesOffered from "./components/ServicesOffered";
 import Stacks from "./components/Stacks";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <AboutMe />
       <Stacks />
+      <ServicesOffered />
     </div>
   );
 }
