@@ -18,11 +18,14 @@ function Header() {
           <hr className="opacity-30 md:mb-0 mb-8" />
 
           {/* TYPEWRITER AND IMAGE  */}
-          <div className="md:flex md:flex-row flex-col md:w-auto md:mx-10 md:my-4 ">
+          <div className="md:flex md:flex-row flex-col md:w-auto md:mx-10 md:my-4 md:gap-[100px]">
             {/* TYPING  */}
             <div>
-              <h1 className="md:font-black font-bold md:text-5xl text-2xl md:text-white text-white md:text-left text-center mb-[50px] pl-2 md:mt-[50px] md:pr-4">
-                <span className="">Welcome! I am Rawllings Kiprop, </span>
+              <h1
+                className="md:font-black font-bold md:text-4xl text-2xl md:text-white text-white md:text-left text-center
+               mb-[50px] pl-2 md:mt-[50px] md:pr-2"
+              >
+                <span className="">Welcome! I am Rawllings Kiprop,</span>
                 <span className="text-lime-500 md:text-4xl md:font-bold text-2xl font-bold md:text-wrap text-center pb-2 pl-2 md:mt-8 ">
                   <Typewriter
                     options={{
@@ -80,7 +83,7 @@ function Header() {
             <div className="">
               <img
                 className="mt-8 md:w-auto w-auto md:h-auto h-auto
-                 rounded-lg p-2 inline-block animate-bounce md:bg-lime-500 bg-lime-500"
+                 rounded-lg pt-2 inline-block animate-bounce bg-lime-500"
                 src={Image}
                 alt=""
               />
@@ -93,7 +96,6 @@ function Header() {
           © {new Date().getFullYear()} Dev Rawllings All rights reserved
         </h1> */}
         </div>
-      
       </div>
       {/* <div>
         <TypeAnimation
