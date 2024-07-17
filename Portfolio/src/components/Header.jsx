@@ -8,9 +8,9 @@ import LinksInNewTab from "./LinksInNewTab.jsx";
 function Header() {
   return (
     //
-    <div className="min-h-screen md:text-white text-white md:bg-black bg-black">
+    <div className="md:min-h-screen min-h-full md:text-white text-white md:bg-black bg-black">
       <div className="md:p-8">
-        <div className="fading-border text-center md:text-left md:border-4 md:rounded-lg md:border-lime-500 md:pt-10">
+        <div className="md:fading-border text-center md:text-left md:border-4 md:rounded-lg md:border-lime-500 md:pt-10">
           <div className="md:text-5xl text-4xl md:font-black font-bold md:p-4 p-2 md:flex md:flex-row flex-col gap-96 md:justify-center pt-4">
             <h1 className="md:text-lime-500 text-lime-500 ">RK</h1>
             <h1 className="md:mt-0 mt-8">+254 727 37 11 99</h1>

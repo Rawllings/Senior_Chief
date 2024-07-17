@@ -2,13 +2,13 @@ import devPhoto from "../assets/dev.jpg";
 function AboutMe() {
   return (
     <div className="min-h-screen p-4 bg-black ">
-      <hr className="md:pb-10" />
-      <div>
+      {/* <hr className="md:pb-10 rounded-xl" /> */}
+      <div className="md:border-y-2 border-y-2 md:border-white border-white md:rounded-xl rounded-md md:p-1 p-[10px]">
         <h1 className="text-lime-500 md:font-bold font-medium md:text-6xl text-4xl text-center md:my-4 my-2">
           About Me
         </h1>
 
-        <div className=" aboutme md:flex md:flex-auto text-white md:gap-10">
+        <div className=" aboutme md:flex md:flex-auto text-white md:gap-10 md:p-4">
           {/* IMAGE  */}
           <div className="mb-8 md:mt-8">
             <img
@@ -43,7 +43,7 @@ function AboutMe() {
         </div>
       </div>
 
-      <hr className="md:pt-10" />
+      {/* <hr className="md:pt-10 " /> */}
     </div>
   );
 }
