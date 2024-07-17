@@ -18,7 +18,7 @@ import { IoLogoFigma } from "react-icons/io5";
 function Stacks() {
   return (
     <div className="md:min-h-screen min-h-full bg-black pb-4">
-      <h1 className="md:text-center text-center py-2 md:text-lime-500 text-lime-500 md:text-6xl text-2xl md:font-bold font-semibold">
+      <h1 className="md:text-center text-center py-2 md:text-lime-500 text-lime-500 md:text-6xl text-4xl md:font-bold font-semibold">
         Stacks
       </h1>
       <div

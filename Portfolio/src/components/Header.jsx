@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import LinksInNewTab from "./LinksInNewTab.jsx";
+import ResumeDownload from "./ResumeDownload.jsx";
 
 function Header() {
   return (
@@ -42,12 +43,7 @@ function Header() {
               </h1>
               {/* BUTTON  */}
               <div className="md:mt-[100px] md:flex flex md:flex-auto flex-auto justify-center md:gap-8 mt-8">
-                <button
-                  className="md:bg-lime-500 bg-lime-500 p-2 rounded-sm
-                 md:py-2 md:px-4 md:text-lg md:font-bold md:rounded-md ml-4 text-white md:hover:bg-lime-600"
-                >
-                  Resume
-                </button>
+                <ResumeDownload />
 
                 {/* SOCIAL MEDIA ICONS  */}
                 <div className="md:pl-[200px] pl-[100px] md:flex flex md:flex-row flex-row md:gap-8 gap-4 mt-2">
