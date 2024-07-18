@@ -12,7 +12,7 @@ function ServicesOffered() {
           </h1>
 
           <div className="md:flex flex md:flex-row flex-col gap-4 justify-evenly">
-            <div className="bg-white text-black md:w-[300px] w-[300px] rounded-md justify-center md:flex md:flex-row mx-7">
+            <div className="bg-white text-black md:w-[300px] w-[300px] rounded-md justify-center md:flex md:flex-row mx-auto hover:-translate-y-2 transition duration-300">
               <div className="text-justify p-4">
                 <h1 className="text-lime-500 pl-[120px] pb-2 text-2xl">
                   {" "}
@@ -27,7 +27,7 @@ function ServicesOffered() {
               </div>
             </div>
 
-            <div className="bg-white text-black md:w-[300px] w-[300px] rounded-md justify-center md:flex md:flex-row mx-7">
+            <div className="bg-white text-black md:w-[300px] w-[300px] rounded-md justify-center md:flex md:flex-row mx-auto hover:-translate-y-2 transition duration-300">
               <div className="text-justify p-4">
                 <h1 className="text-lime-500 pl-[120px] pb-2 text-2xl ">
                   <SiPeakdesign />
@@ -40,7 +40,7 @@ function ServicesOffered() {
               </div>
             </div>
 
-            <div className="bg-white text-black md:w-[300px] w-[300px] rounded-md justify-center md:flex md:flex-row mx-7">
+            <div className="bg-white text-black md:w-[300px] w-[300px] rounded-md justify-center md:flex md:flex-row mx-auto hover:-translate-y-2 transition duration-300">
               <div className="text-justify p-4">
                 <h1 className="text-lime-500 pl-[120px] pb-2 text-2xl">
                   <MdOutlineDesktopWindows />

@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import ServicesOffered from "./components/ServicesOffered";
 import Stacks from "./components/Stacks";
+import ContactsPage from "./components/ContactsPage";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AboutMe />
       <Stacks />
       <ServicesOffered />
+      <ContactsPage />
     </div>
   );
 }
