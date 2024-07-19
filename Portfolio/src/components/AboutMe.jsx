@@ -1,7 +1,7 @@
 import devPhoto from "../assets/dev.jpg";
 function AboutMe() {
   return (
-    <div className="min-h-screen p-4 bg-black ">
+    <div className="min-h-full p-4 bg-black ">
       {/* <hr className="md:pb-10 rounded-xl" /> */}
       <div className="md:border-y-2 border-y-2 md:border-white border-white md:rounded-xl rounded-md md:p-1 p-[10px]">
         <h1 className="text-lime-500 md:font-bold font-medium md:text-6xl text-4xl text-center md:my-4 my-2">

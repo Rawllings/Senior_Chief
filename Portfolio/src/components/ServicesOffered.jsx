@@ -6,7 +6,7 @@ function ServicesOffered() {
   return (
     <div className="min-h-full bg-black">
       <div className="py-2">
-        <div className="md:border-y-2 border-y-2 md:border-white border-white md:rounded-xl rounded-md md:p-4 md:mx-2 mx-2 p-[10px] md:py-[50px]">
+        <div className="md:border-y-2 border-y-2 md:border-white border-white md:rounded-xl rounded-md md:p-4 md:mx-2 mx-2 p-[10px] md:py-[50px] ">
           <h1 className="text-lime-500 md:font-bold font-medium md:text-6xl text-4xl text-center md:mb-10 mb-4">
             Services
           </h1>
