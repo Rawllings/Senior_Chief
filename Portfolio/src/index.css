@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+  border: 1px solid red;
+} */
+
+
 
 @keyframes fadeBorder {
     0%, 100% {
@@ -21,7 +26,7 @@
 
 
   .aboutme {
-       animation: slide-up-fade-in 0.5s ease-out forwards;
+       animation: slide-up-fade-in 1s ease-out forwards;
   }
 
   @keyframes slide-down-fade-in {
