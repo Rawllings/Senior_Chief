@@ -2,7 +2,7 @@ import amazon from "../assets/Amazon.png";
 import croeng from "../assets/Croeng.png";
 import epicTours from "../assets/Epic Tours.png";
 import sakakeja from "../assets/Sakakeja.png";
-import { WiDirectionRight } from "react-icons/wi";
+import { FaArrowRight } from "react-icons/fa";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -49,30 +49,34 @@ const CardSwipper = () => {
     {
       id: 1,
       title: "Amazon",
-      content: "This is Amazon card content.",
+      content: "This is Amazon clone web.",
       image: amazon,
-      direction: <WiDirectionRight />,
+      direction: <FaArrowRight />,
+      link: "https://challenge-bd883.web.app/",
     },
     {
       id: 2,
       title: "Croeng",
-      content: "This is Croeng card content.",
+      content: "This is Croeng Ltd website.",
       image: croeng,
-      direction: <WiDirectionRight />,
+      direction: <FaArrowRight />,
+      link: "https://croeng.vercel.app/",
     },
     {
       id: 3,
       title: "Epic Tours",
-      content: "This is Epic Tours card content.",
+      content: "This is Epic Tours website.",
       image: epicTours,
-      direction: <WiDirectionRight />,
+      direction: <FaArrowRight />,
+      link: "https://epictours-frontend.vercel.app/",
     },
     {
       id: 4,
       title: "Sakakeja",
-      content: "This is Sakakeja card content.",
+      content: "This is Sakakeja web App.",
       image: sakakeja,
-      direction: <WiDirectionRight />,
+      direction: <FaArrowRight />,
+      link: "https://saka-keja-xy3n.vercel.app/",
     },
   ];
 
@@ -88,9 +92,21 @@ const CardSwipper = () => {
               <div className="rounded overflow-hidden shadow-lg bg-white mx-auto">
                 <img className="w-full" src={card.image} alt={card.title} />
                 <div className="md:px-2 md:py-2">
-                  <div className="font-bold text-xl mb-2">{card.title}</div>
-                  <p className="text-gray-700 text-base">{card.content}</p>
-                  <h1 className="text-lime-500 md:text-9xl md:font-black">{card.direction}</h1>
+                  <div className="text-lime-500 font-bold text-2xl mb-2">
+                    {card.title}
+                  </div>
+                  <div className="flex flex-row gap-[100px] mx-auto">
+                    <p className="text-black text-base ">{card.content}</p>
+                    <a
+                      href={card.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h1 className="text-lime-500 text-4xl">
+                        {card.direction}
+                      </h1>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

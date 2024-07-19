@@ -1,9 +1,7 @@
 import Image from "../assets/Rawllingss.png";
 import Typewriter from "typewriter-effect";
-// import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import LinksInNewTab from "./LinksInNewTab.jsx";
 import ResumeDownload from "./ResumeDownload.jsx";
 
 function Header() {
@@ -47,26 +45,35 @@ function Header() {
 
                 {/* SOCIAL MEDIA ICONS  */}
                 <div className="md:pl-[200px] pl-[100px] md:flex flex md:flex-row flex-row md:gap-8 gap-4 mt-2">
-                  <h1 className="text-white  hover:md:text-blue-700 hover:text-blue-700 md:text-white md:text-4xl text-2xl">
-                    <LinksInNewTab
-                      url="https://www.linkedin.com/in/rawllings-kiprop-a23b5b258/"
-                      text={<FaLinkedinIn />}
-                    />
-                  </h1>
+                  <a
+                    href="https://www.linkedin.com/in/rawllings-kiprop-a23b5b258/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="text-white  hover:md:text-blue-700 hover:text-blue-700 md:text-white md:text-4xl text-2xl">
+                      <FaLinkedinIn />
+                    </h1>
+                  </a>
 
-                  <h1 className="text-white md:hover:text-blue-700 hover:text-blue-700 md:text-white md:text-4xl text-2xl">
-                    <LinksInNewTab
-                      url="https://twitter.com/Senior_chieff"
-                      text={<BsTwitterX />}
-                    />
-                  </h1>
+                  <a
+                    href="https://twitter.com/Senior_chieff"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="text-white  hover:md:text-blue-700 hover:text-blue-700 md:text-white md:text-4xl text-2xl">
+                      <BsTwitterX />
+                    </h1>
+                  </a>
 
-                  <h1 className="text-white md:hover:text-blue-700 hover:text-blue-700 md:text-white md:text-4xl text-2xl">
-                    <LinksInNewTab
-                      url="https://github.com/Rawllings"
-                      text={<FaGithub />}
-                    />
-                  </h1>
+                  <a
+                    href="https://github.com/Rawllings"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="text-white  hover:md:text-blue-700 hover:text-blue-700 md:text-white md:text-4xl text-2xl">
+                      <FaGithub />
+                    </h1>
+                  </a>
 
                   {/* <span className="md:text-blue-700 md:text-6xl">
                     <FaLinkedinIn />
