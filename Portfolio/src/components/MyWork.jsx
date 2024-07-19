@@ -111,10 +111,10 @@ function MyWork() {
       <h1 className="text-lime-500 md:font-bold font-medium md:text-6xl text-4xl text-center md:mb-4 mb-4">
         My Work
       </h1>
-      <div className="md:flex flex md:flex-row flex-col md:gap-2 gap-4 md:flex-wrap md:pb-4 pb-4 md:justify-evenly">
+      <div className="md:flex flex md:flex-row flex-col md:gap-2 gap-2 md:flex-wrap md:pb-4 pb-4 md:ml-[50px] ">
         {cards.map((card) => (
           <div key={card.id} className="md:px-2">
-            <div className="md:w-[250px] w-[350px] rounded overflow-hidden bg-white mx-auto shadow-lg shadow-lime-500/100">
+            <div className="md:w-[270px] w-[350px] rounded overflow-hidden bg-white mx-auto shadow-lg">
               <img className="" src={card.image} alt={card.title} />
               <div className="md:px-2 md:py-2">
                 <div className="font-bold text-xl mb-2">{card.title}</div>

@@ -4,7 +4,7 @@ import ServicesOffered from "./components/ServicesOffered";
 import Stacks from "./components/Stacks";
 import ContactsPage from "./components/ContactsPage";
 import MyWork from "./components/MyWork";
-// import CardSwipper from "./components/CardSwipper";
+import CardSwipper from "./components/CardSwipper";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <ServicesOffered />
       <MyWork />
       <ContactsPage />
-      {/* <CardSwipper /> */}
+      <CardSwipper />
     </div>
   );
 }
